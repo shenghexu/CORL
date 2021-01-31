@@ -3,9 +3,12 @@ Code for 'Tomography Based Learning for Load Distribution through Opaque Network
 
 
 ### Dependencies
-Python 3.5.6  
+Python 3.5.6 
+
 numpy 1.15.2
-Pytorch 1.5.1   
+
+Pytorch 1.5.1
+
 scipy 1.1.0 
 
 ### Running the egress picking experiment on the Abilene dataset
