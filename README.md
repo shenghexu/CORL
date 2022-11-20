@@ -1,6 +1,20 @@
 # CORL
 Code for 'Tomography Based Learning for Load Distribution through Opaque Networks', using critic only reinforcement learning and Frank-Wolfe. 
 
+### Usage
+This repository contains simulation environment for egress picking and segment routing, with our critic only reinforcement learning and Frank-Wolfe based solution. The environments are implemented in the `EP_N_Env.py` files in each folder. Topologies from Rocketfuel and Abilene are used. Our paper could be found at: https://arxiv.org/abs/2007.09521 . If you find this repository useful, please cite our paper. 
+
+```
+@article{xu2021tomography,
+  title={Tomography based learning for load distribution through opaque networks},
+  author={Xu, Shenghe and Kodialam, Murali and Lakshman, TV and Panwar, Shivendra S},
+  journal={IEEE Open Journal of the Communications Society},
+  volume={2},
+  pages={656--670},
+  year={2021},
+  publisher={IEEE}
+}
+```
 
 ### Dependencies
 Python 3.5.6 
