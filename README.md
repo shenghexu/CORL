@@ -1,5 +1,5 @@
 # CORL
-Code for 'Tomography Based Learning for Load Distribution through Opaque Networks', using critic only reinforcement learning.
+Code for 'Tomography Based Learning for Load Distribution through Opaque Networks', using critic only reinforcement learning and Frank-Wolfe. 
 
 
 ### Dependencies
@@ -18,6 +18,19 @@ scipy 1.1.0
 ### Running the experiments on the RocketFuel topologies
 For the RocketFuel topologies there is no need to calculate the original delays before running the other experiments. Each method can be ran directly. 
 Modify the toplogy name and number of total nodes in 'EP_N_Env.py' to switch between topologies. 
+
+### Cite our paper
+```
+@article{xu2021tomography,
+  title={Tomography based learning for load distribution through opaque networks},
+  author={Xu, Shenghe and Kodialam, Murali and Lakshman, TV and Panwar, Shivendra S},
+  journal={IEEE Open Journal of the Communications Society},
+  volume={2},
+  pages={656--670},
+  year={2021},
+  publisher={IEEE}
+}
+```
 
 
 
